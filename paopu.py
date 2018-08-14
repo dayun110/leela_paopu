@@ -16,4 +16,4 @@ if not os.path.exists('/usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.1'):
     __shell__('pip install gdown >/dev/null')
     __shell__('gdown https://drive.google.com/uc?id=12nkQsoyKJ4OP8p4foJ05jTxXATfGnJ1M && gdown https://drive.google.com/uc?id=1srbuq-CqAGOqU8FxgIfCpr7o1fsSQR5C')
     __shell__('mkdir leela_paopu/networks && ls | head -2| xargs -i cp -r {} leela_paopu/networks')
-__shell__('cd leela_paopu; ./autogtp | grep minute')
+
